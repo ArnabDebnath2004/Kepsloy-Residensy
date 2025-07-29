@@ -1,0 +1,345 @@
+body{
+margin:0;
+padding:0;
+font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 50px;
+  font-style: normal;
+}
+
+
+
+
+p,div,h1,h2,h3,h4,h5,h6,ul,li,a{
+
+margin:0;
+padding:0;
+}
+
+
+.container{
+width:1170px;
+margin:0 auto;
+
+}
+
+
+.header{
+width:100%;
+float:left;
+
+
+}
+
+
+.logo{
+width:60%;
+float:left;
+
+}
+
+.user{
+width:40%;
+float:right;
+
+
+}
+
+
+.logo img{
+width:115px;
+height:120px;
+}
+
+
+.user form{
+margin-top:35px;
+
+}
+
+
+.user form lable{
+color:black;
+font-weight:bold;
+padding: 10px;
+font-size:20px;
+}
+
+
+.user form input{
+padding :7px;
+border:2px solid black;
+border-radius:13px;
+}
+
+
+.user form input.signup{
+padding:9px;
+color:rgb(0, 0, 0);
+background-color:rgb(205, 205, 219);
+border:2px solid black;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder;
+margin-left: 10px;
+}
+
+
+.user form input::placeholder{
+padding:5px 10px;
+padding-left:0px;
+color:rgb(14, 14, 14);
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+.menu{
+width:100%;
+float:left;
+background-color:black;
+padding:20px 0px;
+
+border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+
+.navigation{
+width:85%;
+margin:0 auto;
+display:table;
+
+}
+
+
+.navigation ul{
+list-style-type:none;
+
+}
+
+.navigation ul li{
+float:left;
+padding:10px;
+
+}
+
+
+.navigation ul li a{
+text-decoration:none;
+
+    font-size: 20px;
+    color: white;
+padding: 10px 15px;
+}
+
+
+.banner{
+width:100%;
+float:left;
+height:600px;
+position:relative;
+}
+
+
+.banner img{
+width:100%;
+height:600px;
+border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.banner-text{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 10px;
+
+}
+
+.banner h1{
+color:white;
+padding:26px;
+   word-spacing: 10px;
+    font-size: 20px;
+letter-spacing: 0px;
+}
+
+
+.facility{
+width:100%;
+float:left;
+
+
+}
+
+.facility h1{
+color:black;
+text-align:center;
+    word-spacing: 6px;
+font-size: 25px;
+padding: 10px;
+}
+
+.facility-icon{
+width:100%;
+float:left;
+
+
+}
+
+.icon-1{
+width:19%;
+float:left;
+padding:35px;
+
+
+}
+
+.icon-1 img{
+    width: 59%;
+    height: 150px;
+margin:0 auto;
+display:table;
+}
+
+
+.icon-1  h2{
+color: black;
+text-align:center;
+
+
+}
+
+.icon-1 p{
+color:black;
+text-align:justify;
+    word-spacing: 1px;
+}
+
+.registration{
+width:100%;
+height:600px;
+position: relative;
+float:left;
+}
+.registration img{
+width:100%;
+height:600px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.registration-in{
+width:100%;
+height:600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.registration h2,h3{
+color:#fff;
+text-align:center;
+padding:10px 0px;
+word-spacing: 5px;
+    letter-spacing: 1px;
+
+}
+
+
+.registration-form{
+width:60%;
+margin: 0 auto;
+    display: table;
+padding:10px 0px;
+}
+
+.registration-form form input{
+    padding: 12px;
+    width: 43%;
+    border-radius: 10px;
+    background-color: rgb(205, 205, 219);
+    color: black;
+    margin: 10px 8px;
+border:2px solid black;
+}
+
+.registration-form form input::placeholder{
+color:black;
+font-family: 'Courier New', Courier, monospace;
+color:rgb(14, 14, 14);
+}
+.registration-form form input.submit{
+float:right;
+text-align:center;
+padding:10px 15px;
+font-size:16px;
+width:12%;
+margin-right:25px;
+border:none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bolder;
+color:rgb(0, 0, 0);
+border:2px solid black;
+}
+
+.service{
+width:100%;
+float:left;
+background-color:black;
+
+}
+
+.service h1{
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    word-spacing: 5px;
+}
+
+
+.service p{
+color: white;
+    padding: 10px 0px;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+.contact{
+color:white;
+
+
+}
+.contact-in{
+width:28%;
+float:left;
+padding:10px 30px;
+}
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.footer h5{
+ color: white;
+    text-align: center;
+    padding: 10px 0px;
+    word-spacing: 5px;
+
+}
+hr.horizontal {
+
+    font-size: 0px;
+}
